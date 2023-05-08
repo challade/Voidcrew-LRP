@@ -1672,15 +1672,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"axios@npm:^0.21.1":
-  version: 0.21.1
-  resolution: "axios@npm:0.21.1"
-  dependencies:
-    follow-redirects: ^1.10.0
-  checksum: c87915fa0b18c15c63350112b6b3563a3e2ae524d7707de0a73d2e065e0d30c5d3da8563037bc29d4cc1b7424b5a350cb7274fa52525c6c04a615fe561c6ab11
-  languageName: node
-  linkType: hard
-
 "babel-loader@npm:^8.2.2":
   version: 8.2.2
   resolution: "babel-loader@npm:8.2.2"
@@ -2034,11 +2025,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"common@workspace:*, common@workspace:packages/common":
-  version: 0.0.0-use.local
-  resolution: "common@workspace:packages/common"
-  languageName: unknown
-  linkType: soft
+"common@npm:0.2.5":
+  version: 0.2.5
+  resolution: "common@npm:0.2.5"
+  checksum: 3deaffb8e7a665c6a1dc7b32d74861df7ce2ddf6db6bd3a84954814ea459449f1e3c7e3ea5c60aa993ee0d60e663b436ee0bc56cc59ca1bde271875ed694b122
+  languageName: node
+  linkType: hard
 
 "commondir@npm:^1.0.1":
   version: 1.0.1
@@ -2077,13 +2069,6 @@ __metadata:
     browserslist: ^4.16.0
     semver: 7.0.0
   checksum: 0b05b12c89160dfd2278f76a20a68da48b544243d819401f82165ddda57f3b12301b6f1343df6f1931531ae9a1ff753111ef068cd3b5c91190b016ca47146213
-  languageName: node
-  linkType: hard
-
-"core-js@npm:^3.8.2":
-  version: 3.8.2
-  resolution: "core-js@npm:3.8.2"
-  checksum: 437d7fb052062ec3b4480c9f9e9b5562b392e042c35156cfdb99c68c6c37bf51b65df15a464c8dfb658e7fc0c4a74ae1090ea18d6bb6caea771ab46c37df857c
   languageName: node
   linkType: hard
 
@@ -2393,13 +2378,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dompurify@npm:^2.2.6":
-  version: 2.2.6
-  resolution: "dompurify@npm:2.2.6"
-  checksum: c074bf5417efeccba752bfddd850dd448dabd8eb189da50a1f8e5128ae168a3eeac4075ea79ab93f6d8d8d4795a43c6e7fbab82027b4f9759f5f937818493105
-  languageName: node
-  linkType: hard
-
 "domutils@npm:^1.7.0":
   version: 1.7.0
   resolution: "domutils@npm:1.7.0"
@@ -2690,13 +2668,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esm@npm:^3.2.25":
-  version: 3.2.25
-  resolution: "esm@npm:3.2.25"
-  checksum: 978aabe2de83541c105605a6d60a26ed8e627ef6bb0a7605fe15a95bbdea6b8348bd045255cb22219c054dd09a81a94823df00843d9e97f42419c92015ce3a64
-  languageName: node
-  linkType: hard
-
 "espree@npm:^7.3.0, espree@npm:^7.3.1":
   version: 7.3.1
   resolution: "espree@npm:7.3.1"
@@ -2905,16 +2876,6 @@ __metadata:
   version: 3.1.0
   resolution: "flatted@npm:3.1.0"
   checksum: 3e4699377ef18194e39777fc39e472e8939e65c38fe1445a26072242498ea4a7f701bbd6515aa332e5ea11dd9d3488f775f6dfe8b605756fbc0807dc329fe118
-  languageName: node
-  linkType: hard
-
-"follow-redirects@npm:^1.10.0":
-  version: 1.13.1
-  resolution: "follow-redirects@npm:1.13.1"
-  peerDependenciesMeta:
-    debug:
-      optional: true
-  checksum: b93de110b4ed2303efe809b448a1c23373f90b86fad1d1359768f779d7f72f5d0c3c89f1b3dce5b7867cbaccd9e9ff60c4d17d36d7267f5f53fd92a42b980b7d
   languageName: node
   linkType: hard
 
@@ -3266,7 +3227,7 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"inferno-vnode-flags@npm:7.4.7, inferno-vnode-flags@npm:^7.4.7":
+"inferno-vnode-flags@npm:7.4.7":
   version: 7.4.7
   resolution: "inferno-vnode-flags@npm:7.4.7"
   checksum: 4b4919e02d7c7c16f597d4f2732f3ca6c1a56171a9623a2489b9fcc37a7b861cc9089684615d5d11b5dc92e2018d56605b1ae45112b60ef71f38570732d6689f
@@ -3781,15 +3742,6 @@ fsevents@~2.3.1:
   dependencies:
     semver: ^6.0.0
   checksum: 484200020ab5a1fdf12f393fe5f385fc8e4378824c940fba1729dcd198ae4ff24867bc7a5646331e50cead8abff5d9270c456314386e629acec6dff4b8016b78
-  languageName: node
-  linkType: hard
-
-"marked@npm:^1.2.7":
-  version: 1.2.7
-  resolution: "marked@npm:1.2.7"
-  bin:
-    marked: bin/marked
-  checksum: 2b6ae709bfaadf9b13b2dcbbb3ba8650cc0337df8768d92b0d4e525140edff32020877d6d07dafceb15228b77d425dfba57f97333f5d594aee47040788ed4d72
   languageName: node
   linkType: hard
 
@@ -4821,7 +4773,7 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"regenerator-runtime@npm:^0.13.4, regenerator-runtime@npm:^0.13.7":
+"regenerator-runtime@npm:^0.13.4":
   version: 0.13.7
   resolution: "regenerator-runtime@npm:0.13.7"
   checksum: 52b66e6669152c0b1bccd95c8e11aabbfe67bb97bdf00e223bdf723b0f0052d4da5c02001d4c4bef576bdc5bcdc38a20496d1b5363b65c950c8434ed5071d9e0
@@ -5232,7 +5184,7 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"source-map@npm:^0.7.3, source-map@npm:~0.7.2":
+"source-map@npm:~0.7.2":
   version: 0.7.3
   resolution: "source-map@npm:0.7.3"
   checksum: cd24efb3b8fa69b64bf28e3c1b1a500de77e84260c5b7f2b873f88284df17974157cc88d386ee9b6d081f08fdd8242f3fc05c953685a6ad81aad94c7393dedea
@@ -5271,15 +5223,6 @@ fsevents@~2.3.1:
   version: 0.1.8
   resolution: "stable@npm:0.1.8"
   checksum: 2ff482bb100285d16dd75cd8f7c60ab652570e8952c0bfa91828a2b5f646a0ff533f14596ea4eabd48bb7f4aeea408dce8f8515812b975d958a4cc4fa6b9dfeb
-  languageName: node
-  linkType: hard
-
-"stacktrace-parser@npm:^0.1.10":
-  version: 0.1.10
-  resolution: "stacktrace-parser@npm:0.1.10"
-  dependencies:
-    type-fest: ^0.7.1
-  checksum: f4fbddfc09121d91e587b60de4beb4941108e967d71ad3a171812dc839b010ca374d064ad0a296295fed13acd103609d99a4224a25b4e67de13cae131f1901ee
   languageName: node
   linkType: hard
 
@@ -5542,43 +5485,6 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"tgui-dev-server@workspace:*, tgui-dev-server@workspace:packages/tgui-dev-server":
-  version: 0.0.0-use.local
-  resolution: "tgui-dev-server@workspace:packages/tgui-dev-server"
-  dependencies:
-    axios: ^0.21.1
-    common: "workspace:*"
-    esm: ^3.2.25
-    glob: ^7.1.4
-    source-map: ^0.7.3
-    stacktrace-parser: ^0.1.10
-    ws: ^7.4.2
-  languageName: unknown
-  linkType: soft
-
-"tgui-panel@workspace:packages/tgui-panel":
-  version: 0.0.0-use.local
-  resolution: "tgui-panel@workspace:packages/tgui-panel"
-  dependencies:
-    common: "workspace:*"
-    dompurify: ^2.2.6
-    inferno: ^7.4.7
-    tgui: "workspace:*"
-    tgui-dev-server: "workspace:*"
-    tgui-polyfill: "workspace:*"
-  languageName: unknown
-  linkType: soft
-
-"tgui-polyfill@workspace:*, tgui-polyfill@workspace:packages/tgui-polyfill":
-  version: 0.0.0-use.local
-  resolution: "tgui-polyfill@workspace:packages/tgui-polyfill"
-  dependencies:
-    core-js: ^3.8.2
-    regenerator-runtime: ^0.13.7
-    whatwg-fetch: ^3.5.0
-  languageName: unknown
-  linkType: soft
-
 "tgui-workspace@workspace:.":
   version: 0.0.0-use.local
   resolution: "tgui-workspace@workspace:."
@@ -5590,7 +5496,7 @@ fsevents@~2.3.1:
     babel-loader: ^8.2.2
     babel-plugin-inferno: ^6.1.1
     babel-plugin-transform-remove-console: ^6.9.4
-    common: "workspace:*"
+    common: 0.2.5
     css-loader: ^5.0.1
     cssnano: ^4.1.10
     eslint: ^7.18.0
@@ -5606,20 +5512,6 @@ fsevents@~2.3.1:
     webpack: ^5.15.0
     webpack-bundle-analyzer: ^4.3.0
     webpack-cli: ^4.3.1
-  languageName: unknown
-  linkType: soft
-
-"tgui@workspace:*, tgui@workspace:packages/tgui":
-  version: 0.0.0-use.local
-  resolution: "tgui@workspace:packages/tgui"
-  dependencies:
-    common: "workspace:*"
-    dompurify: ^2.2.6
-    inferno: ^7.4.7
-    inferno-vnode-flags: ^7.4.7
-    marked: ^1.2.7
-    tgui-dev-server: "workspace:*"
-    tgui-polyfill: "workspace:*"
   languageName: unknown
   linkType: soft
 
@@ -5692,13 +5584,6 @@ fsevents@~2.3.1:
   dependencies:
     prelude-ls: ^1.2.1
   checksum: ec688ebfc9c45d0c30412e41ca9c0cdbd704580eb3a9ccf07b9b576094d7b86a012baebc95681999dd38f4f444afd28504cb3a89f2ef16b31d4ab61a0739025a
-  languageName: node
-  linkType: hard
-
-"type-fest@npm:^0.7.1":
-  version: 0.7.1
-  resolution: "type-fest@npm:0.7.1"
-  checksum: 5b1b113529d59949d97b76977d545989ddc11b81bb0c766b6d2ccc65473cb4b4a5c7d24f5be2c2bb2de302a5d7a13c1732ea1d34c8c59b7e0ec1f890cf7fc424
   languageName: node
   linkType: hard
 
@@ -5971,13 +5856,6 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"whatwg-fetch@npm:^3.5.0":
-  version: 3.5.0
-  resolution: "whatwg-fetch@npm:3.5.0"
-  checksum: 8a915e7ec4ef55d1cfae1d39bd2547893ea2b13b3e8a3a93d355af109f26748c6dc43700a15fe70532f4218eb7076819c0d9f94c16ef4252e94ca85c7863763b
-  languageName: node
-  linkType: hard
-
 "which@npm:^2.0.1, which@npm:^2.0.2":
   version: 2.0.2
   resolution: "which@npm:2.0.2"
@@ -6012,7 +5890,7 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"ws@npm:^7.3.1, ws@npm:^7.4.2":
+"ws@npm:^7.3.1":
   version: 7.4.2
   resolution: "ws@npm:7.4.2"
   peerDependencies:
