@@ -7,7 +7,7 @@
   ],
   "dependencies": {
     "@babel/core": "^7.12.10",
-    "@babel/eslint-parser": "^7.12.1",
+    "@babel/eslint-parser": "^7.22.6",
     "@babel/plugin-transform-jscript": "^7.12.1",
     "@babel/preset-env": "^7.12.11",
     "babel-loader": "^8.2.2",
