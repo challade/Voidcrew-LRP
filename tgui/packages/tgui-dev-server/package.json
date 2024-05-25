@@ -6,7 +6,7 @@
     "axios": "^0.21.1",
     "common": "workspace:*",
     "esm": "^3.2.25",
-    "glob": "^7.1.4",
+    "glob": "^9.0.0",
     "source-map": "^0.7.3",
     "stacktrace-parser": "^0.1.10",
     "ws": "^7.4.2"
