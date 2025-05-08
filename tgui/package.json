@@ -9,7 +9,7 @@
     "@babel/core": "^7.12.10",
     "@babel/eslint-parser": "^7.12.1",
     "@babel/plugin-transform-jscript": "^7.12.1",
-    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-env": "^7.27.1",
     "babel-loader": "^8.2.2",
     "babel-plugin-inferno": "^6.1.1",
     "babel-plugin-transform-remove-console": "^6.9.4",
